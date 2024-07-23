@@ -1,1 +1,2 @@
-name=santhosh;
+let name=santhosh;
+let age=24;
