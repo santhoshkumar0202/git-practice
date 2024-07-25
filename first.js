@@ -6,3 +6,4 @@ let rolno="48"
 name="namae";
 var mobilenum=`
 7790069691`
+///name
