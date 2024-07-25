@@ -6,3 +6,4 @@ let rolno="48"
 ad;
 chanege:"sas"
 name="namae"
+name2="samgit"
