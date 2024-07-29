@@ -25,3 +25,18 @@ async function linear(){
 let res=linear().then((r)=>{console.log(r)})
 
 console.log(res)
+
+function reverse(stng){
+    if(!stng.length>0){
+         return;
+    }
+    
+
+    return stng.substring(-1)+reverse(substring(0,-1))
+
+
+}
+
+
+
+reverse("hello wolrd!".substring)
