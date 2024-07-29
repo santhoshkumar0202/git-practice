@@ -14,11 +14,11 @@ list1=[20.3,3,4]
 list3=[1,2]
 list4=[1]
 lim=[12]
-let name1="ram"
 
 
 
-let promise= new promises((resolve,reject)=>{
+
+let promises= promise((resolve,reject)=>{
     if("hello">3){
         resolve("hello is greater than 3")
     }else{
@@ -27,5 +27,5 @@ let promise= new promises((resolve,reject)=>{
 
 }) 
 
-console.log(promise)
+console.log(promises)
 
