@@ -1,5 +1,4 @@
 let name="santhosh";
-<<<<<<< HEAD
  age=24;
  name1="ram"
  name="santhosh";
@@ -30,11 +29,3 @@ let promises= promise((resolve,reject)=>{
 
 console.log(promises)
 
-=======
-<<<<<<< Updated upstream
-let age=24;
-let name1="ram"
-=======
-let age=24;
->>>>>>> Stashed changes
->>>>>>> bugfix
