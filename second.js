@@ -1,0 +1,31 @@
+let name="santhosh";
+ age=24;
+ name1="ram"
+ name="santhosh";
+ age=24;
+
+var fun=function(){
+    console.log(name)
+}
+
+fun()
+
+list1=[20.3,3,4]
+list3=[1,2]
+list4=[1]
+lim=[12]
+let name1="ram"
+
+
+
+let promise= new promises((resolve,reject)=>{
+    if("hello">3){
+        resolve("hello is greater than 3")
+    }else{
+        reject("not greater than 3")
+    }
+
+}) 
+
+console.log(promise)
+
