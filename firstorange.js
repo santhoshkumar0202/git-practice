@@ -26,17 +26,35 @@ let res=linear().then((r)=>{console.log(r)})
 
 console.log(res)
 
-function reverse(stng){
-    if(!stng.length>0){
-         return;
+
+
+
+function reverse1(str){
+    if(!(str.length>1)){
+         return str;
     }
     
 
-    return stng.substring(-1)+reverse(substring(0,-1))
+    return str.charAt(str.length-1)+ reverse1(str.substring(0,str.length-1))
 
 
 }
 
 
+let helo="hello"
+console.log(reverse1("santhosh kumar singuru"))
 
-reverse("hello wolrd!".substring)
+
+
+
+
+
+liste=["santhosh","kumar","singuru"]
+
+
+console.log(liste.join(" ").replace(/\b\w/g,(chare)=>{
+    return chare.toUpperCase();
+}).split(" "))
+
+
+
